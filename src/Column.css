@@ -1,0 +1,27 @@
+.column-container {
+    margin: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    width: 220px;
+    height: 95vh;
+    background-color: white;
+}
+
+.title {
+    padding: 8px;
+}
+
+.taskList {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.isDraggingOver {
+    background-color: lightcyan;
+}

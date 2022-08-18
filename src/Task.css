@@ -1,0 +1,22 @@
+.task-container {
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+    display: flex;
+    max-width: 80%;
+    width: 80%;
+}
+
+.draggingOver {
+    background-color: lightcoral !important ;
+}
+
+.handle {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-right: 8px;
+}
